@@ -1,0 +1,17 @@
+{
+  "name": "tasker-notification-receiver",
+  "version": "1.0.0",
+  "description": "API to receive notifications from Tasker and save to MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
