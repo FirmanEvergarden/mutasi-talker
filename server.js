@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 // --- Konfigurasi MongoDB ---
 // PENTING: Ganti dengan connection string MongoDB kamu!
 // Untuk Koyeb, kamu akan mengatur ini sebagai Environment Variable.
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://mutasievgr:MannID@mutasi.og3hih7.mongodb.net/?retryWrites=true&w=majority&appName=mutasi';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://mutasievgr:MannID@mutasi.og3hih7.mongodb.net/tasker_notifications?retryWrites=true&w=majority&appName=mutasi';
 
 mongoose.connect(MONGODB_URI)
   .then(() => console.log('Berhasil terhubung ke MongoDB'))
